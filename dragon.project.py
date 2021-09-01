@@ -1,16 +1,16 @@
 
 print ("hello its tool to download termux metasploit")
 print ("        ") 
-print ("TO START TYPE (" GO ") ")
+print ("TO START TYPE "GO" ")
 print ("_________________") 
 omar2 = input ("===>>> : ")
-if omar2=="GO" : 
+if omar2== "GO" : 
     print ("OK LETS GO")
     
 else :
     print ("ERORR  " *9999)
    
-print ("we can download metasploit in your termux (Tybe meta))")
+print ("we can download metasploit in your termux Tybe meta")
 print ("________________") 
 omar1=input ("Type meta : ")
 if omar1=="meta" : 
