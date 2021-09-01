@@ -2,10 +2,10 @@ import os
 os.system ('clear') 
 print ("hello its tool to download termux metasploit")
 print ("        ") 
-print ("TO START TYPE GO ")
+print ("to start type go ")
 print ("_________________") 
-omar2 = input ("===>>>  ")
-if omar2== "GO" : 
+omar2 = input ("===>>> : ")
+if omar2== "go" : 
     print ("OK LETS GO")
     
 else :
