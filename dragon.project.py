@@ -4,7 +4,7 @@ print ("hello its tool to download termux metasploit")
 print ("        ") 
 print ("TO START TYPE GO ")
 print ("_________________") 
-omar2 = input ("===>>> : ")
+omar2 = input ("===>>>  ")
 if omar2== "GO" : 
     print ("OK LETS GO")
     
