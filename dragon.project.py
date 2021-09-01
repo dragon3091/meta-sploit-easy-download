@@ -1,12 +1,10 @@
-import os
-os.system ('clear')
 
 print ("hello its tool to termux metasploit")
 print ("        ") 
 print ("TO START TYPE GO ")
 print ("_________________") 
-omar=input ("===>>> : " )
-if omar=="GO" : 
+omar2 = input ("===>>> : ")
+if omar2=="GO" : 
     print ("OK LETS GO")
     
 else :
