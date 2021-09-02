@@ -4,9 +4,9 @@ print ("hello its tool to download termux metasploit")
 print ("        ") 
 print ("to start Type go:")
 print ("_________________") 
-omar=input ("--->>> : " )
+omar=input ("--->>>" :  )
 if omar=="go" : 
-    print ("OK LETS GO")
+    print ("ok we go")
     
 else :
     print ("ERORR  " *9999)
@@ -27,5 +27,5 @@ wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/me
 else :
     print ("ERORR" *1000)
 print ("             ") 
-	
+print ("open new session and copy all") 	
 print ("MR DRAGON, ")
