@@ -2,7 +2,7 @@ import os
 os.system ('clear') 
 print ("hello its tool to download termux metasploit")
 print ("        ") 
-print ("to start Type go:")
+print ("to start Type go ¦ ")
 print ("_________________") 
 omar=input ("--->>>" :  )
 if omar=="go" : 
